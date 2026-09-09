@@ -1,0 +1,18 @@
+settings:
+  message-cooldown-seconds: 3
+
+barrier:
+  material: RED_STAINED_GLASS
+  radius: 4
+  height-below: 1
+  height-above: 3
+
+features:
+  block-entry: true
+  block-teleport: true
+  elytra-kinetic-damage-protection: true
+
+messages:
+  barrier-hit: "&c&lHATA! &7Savaştayken güvenli bölgeye giremezsin!"
+  teleport-denied: "&c&lHATA! &7Savaştayken güvenli bölgeye ışınlanamazsın!"
+  reload: "&aSafeZoneBarrier yapılandırması başarıyla yenilendi!"

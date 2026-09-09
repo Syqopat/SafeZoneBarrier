@@ -1,0 +1,15 @@
+name: SafeZoneBarrier
+version: 1.0.0
+main: com.example.safezonebarrier.SafeZoneBarrier
+api-version: '26.2'
+softdepend: [WorldGuard, CombatLogX]
+commands:
+  safezonebarrier:
+    description: SafeZoneBarrier main command
+    aliases: [szb]
+    permission: safezonebarrier.admin
+permissions:
+  safezonebarrier.admin:
+    default: op
+  safezonebarrier.reload:
+    default: op
