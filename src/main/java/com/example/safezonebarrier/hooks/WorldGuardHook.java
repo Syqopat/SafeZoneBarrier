@@ -1,4 +1,4 @@
-package com.example.safezonebarrier.hooks;
+﻿package com.example.safezonebarrier.hooks;
 
 import com.sk89q.worldedit.bukkit.BukkitAdapter;
 import com.sk89q.worldguard.WorldGuard;

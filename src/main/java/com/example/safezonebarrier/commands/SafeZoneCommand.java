@@ -1,4 +1,4 @@
-package com.example.safezonebarrier.commands;
+﻿package com.example.safezonebarrier.commands;
 
 import com.example.safezonebarrier.SafeZoneBarrier;
 import org.bukkit.command.Command;

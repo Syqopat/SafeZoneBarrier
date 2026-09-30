@@ -1,4 +1,4 @@
-package com.example.safezonebarrier;
+﻿package com.example.safezonebarrier;
 
 import com.example.safezonebarrier.commands.SafeZoneCommand;
 import com.example.safezonebarrier.hooks.CombatLogXHook;

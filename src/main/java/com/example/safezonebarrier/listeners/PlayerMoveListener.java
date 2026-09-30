@@ -1,4 +1,4 @@
-package com.example.safezonebarrier.listeners;
+﻿package com.example.safezonebarrier.listeners;
 
 import com.example.safezonebarrier.SafeZoneBarrier;
 import org.bukkit.Location;

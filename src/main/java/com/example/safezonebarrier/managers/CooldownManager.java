@@ -1,4 +1,4 @@
-package com.example.safezonebarrier.managers;
+﻿package com.example.safezonebarrier.managers;
 
 import com.example.safezonebarrier.SafeZoneBarrier;
 import org.bukkit.entity.Player;

@@ -1,4 +1,4 @@
-package com.example.safezonebarrier.hooks;
+﻿package com.example.safezonebarrier.hooks;
 
 import com.github.sirblobman.combatlogx.api.ICombatLogX;
 import com.github.sirblobman.combatlogx.api.manager.ICombatManager;
