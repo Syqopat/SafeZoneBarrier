@@ -1,39 +1,39 @@
 # 🧱 SafeZoneBarrier (Minecraft Spigot / Paper Plugin)
 
-![Status](https://img.shields.io/badge/Durum-%C3%87al%C4%B1%C5%9F%C4%B1yor%20%2F%20Working-brightgreen?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Working%20%2F%20Stable-brightgreen?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge)
 ![Paper](https://img.shields.io/badge/Minecraft-1.20%2B-blue?style=for-the-badge)
 ![CI](https://img.shields.io/badge/CI%2FCD-Active-success?style=for-the-badge)
 
-**SafeZoneBarrier**, Minecraft sunucuları (Spigot / Paper) için geliştirilmiş, güvenli bölge sınırlarını görsel parçacıklar (particle effect) ve engelleme duvarları ile koruyan yüksek performanslı bir eklentidir.
+**SafeZoneBarrier** is a high-performance Minecraft server plugin (Spigot / Paper) designed to enforce safe zone boundaries using particle visual effects and barrier collision rules.
 
 ---
 
-## 📌 Proje Durumu (Project Status)
+## 📌 Project Status
 
-- **Durum:** 🟢 **Çalışıyor (Working / Stable)**
-- **Test & CI/CD:** GitHub Actions Maven derleme otomasyonu aktif.
-- **Entegrasyonlar:** WorldGuard ve CombatLogX kancaları (hooks) mevcut.
-
----
-
-## 🚀 Özellikler
-
-- **Görsel Sınır Bloklama:** Güvenli bölgeye girmeye veya çıkmaya çalışan oyunculara bariyer parçacıkları gösterir.
-- **Savaş Durumu Kontrolü:** CombatLogX kancası sayesinde savaş halindeki oyuncuların güvenli bölgeye kaçmasını engeller.
-- **Yapılandırılabilir Mesaj ve Ayarlar:** `src/main/resources/config.yml` üzerinden mesajlar, cooldown ve efekt türleri değiştirilebilir.
+- **Status:** 🟢 **Working / Stable**
+- **CI/CD:** Automated GitHub Actions Maven build workflow enabled.
+- **Integrations:** WorldGuard and CombatLogX hooks included.
 
 ---
 
-## 🛠️ Derleme ve Kurulum
+## 🚀 Key Features
+
+- **Visual Barrier Enforcement:** Displays particle effects and blocks movement when players attempt to enter or exit safe zones during combat.
+- **Combat Protection:** CombatLogX hook prevents combat-tagged players from escaping into safe areas.
+- **Configurable Settings:** Customize messages, particle types, and cooldowns via `src/main/resources/config.yml`.
+
+---
+
+## 🛠️ Build & Installation
 
 ```bash
 mvn clean package
 ```
-Oluşan `.jar` dosyasını sunucunuzun `plugins` klasörüne ekleyin.
+Move the compiled `.jar` file from `target/` into your server's `plugins/` directory.
 
 ---
 
-## 📄 Lisans
+## 📄 License
 
-MIT License
+Licensed under the MIT License.
